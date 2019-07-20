@@ -1,4 +1,45 @@
+/*MOBILE BASE STYLES*/
+
+.cta1 {
+	width: 300px;
+	height: 200px;
+	background-image: url(images/shop-ceramics-mugs-pottery.jpg);
+	background-size:cover;
+	max-width: 100%;
+}
+
+.cta2 {
+	width: 300px;
+	height: 200px;
+	background-image: url(images/shop-ceramics-tableware-plates.jpg);
+	background-size:cover;
+	max-width: 100%;
+
+}
+
 .shop-icon {
 	width: 24px;
 	height: 22px;
 }
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES FOR MEDIUM SCREENS*/
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIUM QUERIES FOR LARGE SCREENS*/
+>>>>>>> master
