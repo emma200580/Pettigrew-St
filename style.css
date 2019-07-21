@@ -1,4 +1,41 @@
-/*MOBILE BASE STYLES*/
+/*BASE STYLES APPLICABLE TO ALL SIZE SCREENS*/
+* {
+	color:#373D3F;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header h1,
+    	h3 {
+	font-family: 'Courier-New', 'Courier', monospace;
+}
+
+
+/*STYLES FOR SMALL SCREEN*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cta1 {
 	width: 300px;
