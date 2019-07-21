@@ -6,10 +6,11 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	margin: 
 }
 
 header h1,
-    	h3 {
+		h3 {
 	font-family: 'Courier-New', 'Courier', monospace;
 }
 
@@ -17,6 +18,70 @@ header h1,
 /*STYLES FOR SMALL SCREEN*/
 
 
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  background-color: #FFF;
+  z-index: 100;
+}
+
+.main-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-heading h3 {
+	font-weight: lighter;
+}
+
+  /* Show Hamburger */
+  #page-nav label {
+    display: inline-block;
+    color: #000;
+    background: #FFF;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 20px;
+  }
+
+  #hamburger {
+  	visibility: hidden;
+  }
+
+  /* Break down menu items into vertical */
+  #page-nav ul li {
+    display: block;
+  }
+  #page-nav ul li {
+    border-top: 1px solid #333;
+  }
+
+  /* Toggle show/hide menu on checkbox click */
+  #page-nav ul {
+    display: none;
+  }
+  #page-nav input:checked ~ ul {
+    display: block;
+  }
+}
+
+#page-nav {
+  background: #000;
+  position: sticky;
+  top: 0;
+}
+
+.shop-icon {
+	width: 24px;
+	height: 22px;
+	display: inline-block;
+	float: right;
+	padding: 20px;
+}
 
 
 
@@ -43,6 +108,7 @@ header h1,
 	background-image: url(images/shop-ceramics-mugs-pottery.jpg);
 	background-size:cover;
 	max-width: 100%;
+	margin-top: 250px;
 }
 
 .cta2 {
@@ -51,12 +117,8 @@ header h1,
 	background-image: url(images/shop-ceramics-tableware-plates.jpg);
 	background-size:cover;
 	max-width: 100%;
+	margin-top: 50px;
 
-}
-
-.shop-icon {
-	width: 24px;
-	height: 22px;
 }
 
 
