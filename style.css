@@ -1,7 +1,9 @@
 /*BASE STYLES APPLICABLE TO ALL SIZE SCREENS*/
+
 * {
 	color:#373D3F;
 	text-decoration: none;
+	list-style-type: none;
 }
 
 body {
@@ -14,10 +16,6 @@ header h1,
 	font-family: 'Courier-New', 'Courier', monospace;
 }
 
-
-/*STYLES FOR SMALL SCREEN*/
-
-
 header {
   position: fixed;
   top: 0px;
@@ -27,6 +25,8 @@ header {
   background-color: #FFF;
   z-index: 100;
 }
+
+/*STYLES FOR SMALL SCREEN*/
 
 .main-heading {
 	display: flex;
@@ -67,7 +67,6 @@ header {
   #page-nav input:checked ~ ul {
     display: block;
   }
-}
 
 #page-nav {
   background: #000;
@@ -83,28 +82,16 @@ header {
 	padding: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+main {
+	width:80%;
+	margin:auto;
+}
 
 .cta1 {
+	display:inline-block;
 	width: 300px;
 	height: 200px;
+	margin:1.5em;
 	background-image: url(images/shop-ceramics-mugs-pottery.jpg);
 	background-size:cover;
 	max-width: 100%;
@@ -112,8 +99,10 @@ header {
 }
 
 .cta2 {
+	display:inline-block;
 	width: 300px;
 	height: 200px;
+	margin: 1.5em;
 	background-image: url(images/shop-ceramics-tableware-plates.jpg);
 	background-size:cover;
 	max-width: 100%;
@@ -121,9 +110,33 @@ header {
 
 }
 
+.shop-icon {
+	width: 24px;
+	height: 22px;
+}
 
+.about {
+	line-height: 1.5;
+}
 
+footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	width: 100%;
+	background-color: grey;
+}
 
+.copyright {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+.stayconnected {
+	grid-column:3/4;
+	grid-row:1/2;
+
+}
 
 
 
@@ -141,3 +154,6 @@ header {
 
 
 /*MEDIUM QUERIES FOR LARGE SCREENS*/
+
+
+
