@@ -6,29 +6,48 @@
 </head>
 <body>
 	<header>
-	<!-- [NAVIGATION BAR] -->
-    <nav id="page-nav">
-      <!-- [THE HAMBURGER] -->
-      <label for="hamburger">&#9776;</label>
-      <input type="checkbox" id="hamburger"/>
-      <!-- [MENU ITEMS] -->
-      <ul>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="help.html">Help</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      
-       <!-- [SHOPPING ICON] -->
-  <object class="shop-icon" type="image/svg+xml" data="images/shopping-bag.svg">
+		<!-- [HAMBURGER] -->
+
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Menu inside of the button - pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>SHOP</li></a>
+      <a href="#"><li>ABOUT</li></a>
+      <a href="#"><li>HELP</li></a>
+      <a href="#"><li>CONTACT</li></a>
+    </ul>
+  </div>
+</nav>
+
+
+	<!-- [SHOPPING ICON] -->
+	<object class="shop-icon" type="image/svg+xml" data="images/shopping-bag.svg">
   Your browser does not support SVG
   </object>
-    </nav>
-
-
-    <!-- [SITE LOGO/TITLE] -->
+	<!-- [SITE LOGO/TITLE] -->
     <section class="main-heading">
-		<h1>Pettigrew St. Ceramics</h1>
+		<h1>Pettigrew St.</h1>
+	</section>
+	<section class="sub-heading">
 		<h3>Handmade Ceramics</h3>
 	</section>
 	</header>
